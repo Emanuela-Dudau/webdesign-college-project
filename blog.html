@@ -22,8 +22,12 @@
 	<link rel="stylesheet" type="text/css" href="resources/css/queries.css">
 	<style></style>
 	<style type="text/css">
-   	.bg-prim { background: navy !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
-</style>
+		.bg-prim {
+			background: navy !important;
+		}
+
+		/* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+	</style>
 </head>
 
 <body>
@@ -53,13 +57,11 @@
 					<li class="nav-item">
 						<a class="nav-link" href="/index.html">Home</a>
 					</li>
-					
+
 				</ul>
 			</div>
 		</div>
 	</nav>
-
-
 
 
 
@@ -71,51 +73,41 @@
 			<!-- Blog Entries Column -->
 			<div class="col-md-8">
 
-				<h2 class="my-4">Welcome to my new blog
+				<h3 class="my-4">Welcome to my new blog
 					<small>- I hope you'll enjoy catching up with my news!</small>
-				</h2>
+				</h3>
 
 				<!-- Blog Post -->
 				<div class="card mb-4">
 					<img class="card-img-top" src="resources/img/programming.jpeg">
 					<div class="card-body">
-						<h2 class="card-title">What Programming Languages should you learn as a CS student and why</h2>
+						<h3 class="card-title">What Programming Languages should you learn as a CS student and why</h3>
 						<p class="card-text">Which programming language should I learn first? This is the most obvious question which any student would probably ask himself the minute he/she is going to sign-up for a computing course.</p>
-						
-						
+
+
 						<!-- Button trigger modal -->
-						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-						  Read More →
+						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#whatProgramingLanguages">
+							Read More →
 						</button>
 					</div>
 					<div class="card-footer text-muted">
-						Posted on January 1, 2017
+						Posted on November 15, 2019
 					</div>
 				</div>
 
 				<!-- Blog Post -->
 				<div class="card mb-4">
-					<img class="card-img-top" src="resources/img/programming.jpeg">
+					<img class="card-img-top" src="resources/img/blockchain.jpg">
 					<div class="card-body">
-						<h2 class="card-title">Manyara</h2>
-						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-						<a href="https://bootsnipp.com/fullscreen/6Xa15" class="btn btn-primary">Read More →</a>
+						<h2 class="card-title">How do Blockchains work?</h2>
+						<p class="card-text">Blockchain is the technology that sits behind cryptocurrencies such as BitCoin, Ethereum, Ripple just, to name a few, but it is not limited to them. It can be programmed to track anything: medical records, bank transactions and many various things with sensitive information. Just as the name itself suggests, it is a chain of blocks, and each of these boxes contain information. </p>
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#whatIsBlockChain">
+							Read More →
+						</button>
 					</div>
 					<div class="card-footer text-muted">
-						Posted on January 1, 2017
-					</div>
-				</div>
-
-				<!-- Blog Post -->
-				<div class="card mb-4">
-					<img class="card-img-top" src="resources/img/programming.jpeg" alt="Card image cap">
-					<div class="card-body">
-						<h2 class="card-title">Tarangire</h2>
-						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-						<a href="https://bootsnipp.com/fullscreen/6Xa15" class="btn btn-primary">Read More →</a>
-					</div>
-					<div class="card-footer text-muted">
-						Posted on January 1, 2017
+						Posted on November 15, 2019
 					</div>
 				</div>
 			</div>
@@ -151,54 +143,112 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document" >
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>Which programming language should I learn first? This is the most obvious question which any student would probably ask himself the minute he/she is going to sign-up for a computing course. Many computer science courses start with JavaScript or Python and that’s because of its simplicity and easy syntax, but it is not said that this is going to work out for you or not in the long run (Tozzi, 2018).&nbsp;<br></p>
+
+	<!-- Modal -->
+	<div class="modal fade" id="whatProgramingLanguages" tabindex="-1" role="dialog" aria-labelledby="modalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalCenterTitle">What Programming Languages should you learn as a CS student and why</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Which programming language should I learn first? This is the most obvious question which any student would probably ask himself the minute he/she is going to sign-up for a computing course. Many computer science courses start with JavaScript or Python and that’s because of its simplicity and easy syntax, but it is not said that this is going to work out for you or not in the long run (Tozzi, 2018).&nbsp;<br></p>
 
 
 
-		<p>It is however true, that no matter where you want your computer science education to lead you, you must grasp first some basic knowledge of what a programming language is, its syntax, what can handle, what is does and what you can achieve with it and then move onto complex things.&nbsp;<br></p>
+					<p>It is however true, that no matter where you want your computer science education to lead you, you must grasp first some basic knowledge of what a programming language is, its syntax, what can handle, what is does and what you can achieve with it and then move onto complex things.&nbsp;<br></p>
 
 
 
-		<p>Speaking from my personal experience, I believe that the minute you start a computing course or a bootcamp, many students get it in their heads that the most important thing is to “learn how to code”, no matter what programming language is taught. After learning the basics, they keep diving into it, eventually start looking at other programming languages but fail to stop and think for a minute about what I want to learn “to do with that” or are there any benefits of that programming language in the long run. Is this going to help me to secure a graduate or a junior role the minute I am going to graduate ?<br></p>
+					<p>Speaking from my personal experience, I believe that the minute you start a computing course or a bootcamp, many students get it in their heads that the most important thing is to “learn how to code”, no matter what programming language is taught. After learning the basics, they keep diving into it, eventually start looking at other programming languages but fail to stop and think for a minute about what I want to learn “to do with that” or are there any benefits of that programming language in the long run. Is this going to help me to secure a graduate or a junior role the minute I am going to graduate ?<br></p>
 
 
 
-		<p>As a student or not limited to, if you want to start with straightforward language because you want to grasp quickly the fundamental concepts of programming before going and learning a high level, Object Orientated Programming (OOP) language like Java, that’s great.<br></p>
+					<p>As a student or not limited to, if you want to start with straightforward language because you want to grasp quickly the fundamental concepts of programming before going and learning a high level, Object Orientated Programming (OOP) language like Java, that’s great.<br></p>
 
 
 
-		<p>For some students, JavaScript or HTML will be the best choice in terms of programming language to learn as their first. Being used for the development of the front-end web application, so it’s a “must-have” skills to put on your resume for those wanting to work in these fields. However, learning a language like JavaScript, CSS and HTML won’t help you much if you seek employment with a mobile development development company with primarily focus is on native iOS and Android app development. Same goes for enterprise applications, where big companies use Java as the preferred backend programming language. According to StackShare, nearly 90.000 companies reportedly use Java in their tech stacks, including Google, Facebook, Airbnb, Uber,&nbsp; Netflix, Bank of Ireland, just to name a few (Stackshare, 2019).&nbsp;<br></p>
+					<p>For some students, JavaScript or HTML will be the best choice in terms of programming language to learn as their first. Being used for the development of the front-end web application, so it’s a “must-have” skills to put on your resume for those wanting to work in these fields. However, learning a language like JavaScript, CSS and HTML won’t help you much if you seek employment with a mobile development development company with primarily focus is on native iOS and Android app development. Same goes for enterprise applications, where big companies use Java as the preferred backend programming language. According to StackShare, nearly 90.000 companies reportedly use Java in their tech stacks, including Google, Facebook, Airbnb, Uber,&nbsp; Netflix, Bank of Ireland, just to name a few (Stackshare, 2019).&nbsp;<br></p>
 
 
 
-		<p>With that in mind it is very important to keep an open mind when choosing the best coding language to learn. Starting a career in computer science isn&#8217;t as easy as graduating and securing a job interview. Even though, each year there is a high demand for new graduates, the candidate&#8217;s competitive advantage comes from specific expertise acquired during his years in college as well as the programming languages he studied or self taught up to that point. Once you set your priorities right and have the proper skills under your belt the success is guaranteed.&nbsp;</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+					<p>With that in mind it is very important to keep an open mind when choosing the best coding language to learn. Starting a career in computer science isn&#8217;t as easy as graduating and securing a job interview. Even though, each year there is a high demand for new graduates, the candidate&#8217;s competitive advantage comes from specific expertise acquired during his years in college as well as the programming languages he studied or self taught up to that point. Once you set your priorities right and have the proper skills under your belt the success is guaranteed.&nbsp;</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
-<div class="text-center">
-  <a href="" class="btn btn-default btn-rounded" data-toggle="modal" data-target="#modalLoginAvatar">Launch
-    Modal Login with Avatar</a>
-</div>
 
+	<!-- Modal -->
+	<div class="modal fade" id="whatIsBlockChain" tabindex="-1" role="dialog" aria-labelledby="modalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalCenterTitle">How do Blockchains work?</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>What is a blockchain?</p>
+
+
+
+					<p>Blockchain is the technology that sits behind cryptocurrencies such as BitCoin, Ethereum, Ripple just, to name a few, but it is not limited to them. It can be programmed to track anything: medical records, bank transactions and many various things with sensitive information. Just as the name itself suggests, it is a chain of blocks, and each of these boxes contain information.&nbsp;</p>
+
+
+
+					<p class="has-text-align-left"><br>There can be different types of blockchains, depending on the type of data being stored.&nbsp; The primary types of blockchains are: Public blockchains like Bitcoin and Ethereum, Private blockchains like Hyperledger and R3 Corda and Hybrid blockchains like Dragonchain.<br></p>
+
+
+
+					<p>Public meaning that the blockchain is open source and therefore anyone is allowed to participate as miners, developers or community members. On the other hand the private blockchain, as the name suggests it is not open to anyone, therefore participants need access to join the network, while the transactions taking place are private and available only to those that have been authorized to join the network. Lastly, the hybrid blockchain incorporate both benefits of the private and public blockchain. This gives users the option to cherry pick what data they want to make public and what data they want to keep private.<br></p>
+
+
+
+					<p>But why Blockchain?</p>
+
+
+
+					<p>Is Blockchain secure? Once the information has been registered within a blockchain, it cannot be changed anymore. That is because, each block contains its own hash and the hash of the previous block. A ‘hash’ can be seen just as a fingerprint, in other words, it is a key.&nbsp;&nbsp;</p>
+
+
+
+					<p>One characteristic of the hash is that it’s always unique. If you were to change something inside the block, the hash would change automatically.</p>
+
+
+
+					<p>So, if the hash of a block is changed, it automatically<strong> fails validation</strong>.</p>
+
+
+
+					<p>Although, using hashes by itself obviously it would not be enough to prevent tampering. There would be software that could calculate hundred thousands of hashes per second. In order to avoid this, blockchains also use a ‘proof-of-work’ function.&nbsp;</p>
+
+
+
+					<p>What the proof-of-work function’s role is to slow down the creation of new blocks. For example, in BitCoin’s case it takes about 10 minutes to calculate the required proof-of-work and add a new block to the chain. This mechanism makes it hard for any tampering to be done. If any tampering would be attempted, the proof-of-work would need to be re-calculated as well. </p>
+
+
+
+					<p>Another way that blockchains secure themselves is that they are being distributed. What this means is that it uses P2P ( Peer to Peer) Network and anyone is allowed to join. When somebody joins this network, they get a copy of the blockchain.&nbsp;After somebody creates a new block, every single person in the network receives the same block. Then the blocks are being verified for validation purposes. If everything seems to be in order, the nodes then add the block to the blockchain. All the nodes from a blockchain communicate and agree with one another if a block is valid or not.</p>
+
+
+
+					<p>Regardless of what the future holds, blockchain technology is growing massively because almost anything in the world of today involves online transactions which can work in a blockchain system. It is just a matter of time before blockchain technology will change how we do business interact with one another.<br></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
-
 </html>
 
 
