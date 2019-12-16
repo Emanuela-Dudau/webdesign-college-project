@@ -586,21 +586,30 @@ footer {
     list-style: none;
 }
 
+.social-links-footer {
+    list-style: none;
+    float: right;
+}
+
 .footer-nav li,
-.social-links li {
+.social-links li,
+.social-links-footer li{
     display: inline-block;
     margin-right: 20px;
 }
 
 .footer-nav li:last-child,
-.social-links li:last-child {
+.social-links li:last-child,
+.social-links-footer li:last-child{
     margin-right: 0;
 }
 
 .footer-nav li a:link,
 .footer-nav li a:visited, 
 .social-links li a:link,
-.social-links li a:visited {
+.social-links li a:visited,
+.social-links-footer li a:link,
+.social-links-footer li a:visited{
     text-decoration: none;
     border: 0;
     color: #888;
@@ -614,7 +623,9 @@ footer {
 }
 
 .social-links li a:link,
-.social-links li a:visited {
+.social-links li a:visited
+.social-links-footer li a:link,
+.social-links-footer li a:visited{
     font-size: 160%;
 }
 
