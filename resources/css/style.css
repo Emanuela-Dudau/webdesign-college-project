@@ -541,8 +541,13 @@ cite img {
 }
 
 .section-form {
+    background-color: #ffff;
+}
+
+.section-map {
     background-color: #f4f4f4;
 }
+
 
 
 
