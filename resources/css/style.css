@@ -300,29 +300,29 @@ header {
 /* MEALS */
 /* ----------------------------------------------- */
 
-.section-meals {
+.section-poppies {
     padding: 0;
 }
 
-.meals-showcase {
+.poppies-showcase {
     list-style: none;
     width: 100%;
 }
 
-.meals-showcase li {
+.poppies-showcase li {
     display: block;
     float: left;
     width: 25%;
 }
 
-.meal-photo {
+.poppy-photo {
     width: 100%;
     margin: 0;
     overflow: hidden;
     background-color: #000;
 }
 
-.meal-photo img {
+.poppy-photo img {
     opacity: 0.7;
     width: 100%;
     height: auto;
@@ -333,7 +333,7 @@ header {
     transition: transform 0.5s, opacity 0.5s;
 }
 
-.meal-photo img:hover {
+.poppy-photo img:hover {
     opacity: 1;
     -webkit-transform: scale(1.03);
     -ms-transform: scale(1.03);
