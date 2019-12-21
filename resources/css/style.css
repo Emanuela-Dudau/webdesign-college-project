@@ -122,7 +122,7 @@ h2:after {
 
 a:link,
 a:visited {
-    color: #e67e22;
+    color: #cc0052;
     text-decoration: none;
     padding-bottom: 1px;
     border-bottom: 1px solid #cc0052;
@@ -161,7 +161,7 @@ input[type=submit] {
 .btn-ghost:link,
 .btn-ghost:visited {
     border: 1px solid #cc0052;
-    color: #e67e22;
+    color: #cc0052;
 }
 
 .btn:hover,
@@ -195,6 +195,15 @@ header {
     height: 100vh;
     background-attachment: fixed;
 }
+.headerTwo	{
+
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+    background-attachment: fixed;
+}
 
 .hero-text-box {
     position: absolute;
@@ -206,20 +215,6 @@ header {
     transform: translate(-50%, -50%);
 }
 
-.logo {
-    height: 100px;
-    width: auto;
-    float: left;
-    margin-top: 20px;
-}
-
-.logo-black { 
-    display: none;
-    height: 50px;
-    width: auto;
-    float: left;
-    margin: 5px 0;
-}
 
 /* Main navi */
 .main-nav {
@@ -284,8 +279,7 @@ header {
     color: #555;
 }
 
-.sticky .logo { display: none; }
-.sticky .logo-black { display: block; }
+
 
 /* ----------------------------------------------- */
 /* FEATURES */
@@ -297,7 +291,7 @@ header {
 
 
 /* ----------------------------------------------- */
-/* MEALS */
+/* Poppies */
 /* ----------------------------------------------- */
 
 .section-poppies {
@@ -343,7 +337,7 @@ header {
 
 
 /* ----------------------------------------------- */
-/* HOW IT WORKS SECTION */
+/* About */
 /* ----------------------------------------------- */
 
 .section-steps {
@@ -381,12 +375,10 @@ header {
 
 
 .works-step div {
-    /* color: #e67e22; */
+
     font-size: 150%;
     height: 54px;
     width: 54px;
-    /* border: 2px solid #e67e22; */
-    /* border-radius: 50%; */
     display: inline-block;
     text-align: center;
     margin-right: 25px;
@@ -424,7 +416,7 @@ header {
 }
 
 .section-map {
-    background-color: #f4f4f4;
+    background-color: #ffff;
 }
 
 
