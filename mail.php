@@ -1,11 +1,13 @@
+<!--This website https://www.freecontactform.com/email_form.php was used a refrence for the imlp
+on capture the contact form submission and send the form contents to my personal email address.-->
 <?php
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 
 $formcontent=" From: $name \n Message: $message";
-$recipient = "contact@danielozac.com";
-$subject = "Contact Form";
+$recipient = "emanuela_dudau@yahoo.com";
+$subject = "Contact from EmanuelaDudau.com";
 
 $mailheader = "From: $email \r\n";
 
